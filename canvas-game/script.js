@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
   const indigo = document.getElementsByClassName('indigo')[0]
   const violet = document.getElementsByClassName('violet')[0]
   const black = document.getElementsByClassName('black')[0]
-  const erase = document.getElementsByClassName('erase')[0]
+  const eraser = document.getElementsByClassName('eraser')[0]
   const thinLine = document.getElementsByClassName('thin-line')[0]
   const middleLine = document.getElementsByClassName('middle-line')[0]
   const thickLine = document.getElementsByClassName('thick-line')[0]
@@ -100,7 +100,7 @@ window.addEventListener('load', () => {
   indigo.addEventListener('click', changeStrokeColorToIndigo)
   violet.addEventListener('click', changeStrokeColorToViolet)
   black.addEventListener('click', changeStrokeColorToBlack)
-  erase.addEventListener('click', eraseDrawing)
+  eraser.addEventListener('click', eraseDrawing)
   thinLine.addEventListener('click', changeLineWidthToThin)
   middleLine.addEventListener('click', changeLineWidthToMiddle)
   thickLine.addEventListener('click', changeLineWidthToThick)
